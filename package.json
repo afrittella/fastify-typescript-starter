@@ -30,7 +30,7 @@
     "fastify": "^3.27.1",
     "fastify-cors": "^6.0.2",
     "nodemon": "2.0.16",
-    "pino": "^7.8.0"
+    "pino": "^8.0.0"
   },
   "devDependencies": {
     "@types/jest": "27.5.1",
