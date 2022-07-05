@@ -29,7 +29,7 @@
   "dependencies": {
     "fastify": "^4.0.0",
     "fastify-cors": "^6.0.2",
-    "nodemon": "2.0.16",
+    "nodemon": "2.0.19",
     "pino": "^8.0.0"
   },
   "devDependencies": {
