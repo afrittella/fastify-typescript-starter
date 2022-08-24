@@ -13,9 +13,9 @@
     "test": "jest --colors --runInBand"
   },
   "keywords": [
-    "image",
-    "sharp",
-    "cdn"
+    "fastify",
+    "server",
+    "api"
   ],
   "author": {
     "email": "info@andreafrittella.com",
