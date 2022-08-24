@@ -1,5 +1,5 @@
 import fastify, { FastifyServerOptions } from 'fastify'
-import fastifyCors from 'fastify-cors'
+import fastifyCors from '@fastify/cors'
 
 export const getApp = (opts?: FastifyServerOptions) => {
     const app = fastify(opts)

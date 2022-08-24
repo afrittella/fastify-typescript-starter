@@ -22,15 +22,15 @@
     "name": "Andrea Frittella"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "license": "MIT",
   "dependencies": {
-    "fastify": "^4.0.0",
-    "fastify-cors": "^6.0.2",
+    "@fastify/cors": "^8.1.0",
+    "fastify": "^4.5.2",
     "nodemon": "2.0.19",
-    "pino": "^8.0.0"
+    "pino": "^8.4.2"
   },
   "devDependencies": {
     "@types/jest": "28.1.7",
