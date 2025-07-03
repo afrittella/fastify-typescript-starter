@@ -1,18 +1,26 @@
+import { test, type TestContext } from 'node:test'
 import { getApp } from './app'
-import supertest from 'supertest'
+import env from './config/config'
+import type { FastifyInstance } from 'fastify'
+import { getLoggerByEnv } from './utils/envToLogger'
 
-describe('Application test', () => {
-    const app = getApp()
+let app: FastifyInstance
 
-    beforeAll(async () => await app.ready())
-    afterAll(() => app.close())
+test.beforeEach(async () => {
+  app = getApp(env, { logger: getLoggerByEnv(env.nodeEnv, env.log.level) })
+})
 
-    it('GET `/` route', async () => {
-        const response = await supertest(app.server)
-            .get('/')
-            .expect(200)
-            .expect('Content-Type', 'application/json; charset=utf-8')
+test('swagger plugin is loaded', async (t: TestContext) => {
+  t.plan(1)
 
-        expect(response.body).toEqual({ message: 'Welcome' })
-    })
+  const response = await app.inject({
+    method: 'GET',
+    url: '/api-docs',
+  })
+
+  t.assert.strictEqual(response.statusCode, 200, 'swagger endpoint returns a status code of 200')
+})
+
+test.afterEach(async () => {
+  await app.close()
 })

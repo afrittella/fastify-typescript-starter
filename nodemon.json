@@ -1,6 +1,6 @@
 {
-    "execMap": {
-        "ts": "ts-node"
-    },
-    "ignore": ["*.{spec,test}.ts"]
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "ignore": ["*.{spec,test}.ts"]
 }

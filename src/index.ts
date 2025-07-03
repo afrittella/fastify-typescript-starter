@@ -1,19 +1,23 @@
-import pino from 'pino'
 import { getApp } from './app'
-
-const server = getApp({
-    logger: pino({ level: 'debug' }),
-})
+import env from './config/config'
+import { getLoggerByEnv } from './utils/envToLogger'
+import { getCloseWithGrace } from './utils/closeWithGrace'
 
 const start = async () => {
-    try {
-        await server.listen({
-            port: 8080,
-        })
-    } catch (err) {
-        server.log.error(err)
-        process.exit(1)
-    }
+  const app = getApp(env, {
+    logger: getLoggerByEnv(env.nodeEnv, env.log.level),
+    ignoreDuplicateSlashes: true,
+  })
+
+  getCloseWithGrace(app, 500)
+
+  try {
+    await app.listen({ host: env.server.host, port: env.server.port })
+    app.log.info(`Listening on port ${env.server.port}`)
+  } catch (e) {
+    app.log.error(e)
+    process.exit(1)
+  }
 }
 
 start()
