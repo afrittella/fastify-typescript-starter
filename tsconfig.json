@@ -1,27 +1,10 @@
 {
+  "extends": "fastify-tsconfig",
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "strict": true,
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "target": "ES2020",
-    "noImplicitAny": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
     "outDir": "dist",
-    "declaration": true,
-    "baseUrl": "./src",
-    "paths": {
-      "*": [
-        "node_modules/*"
-      ]
-    }
+    "target": "ES2022",
+    "lib": ["EsNext"],
+    "sourceMap": true
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/**/*.test.ts",
-    "node_modules/**/*"
-  ]
+  "include": ["src"]
 }
