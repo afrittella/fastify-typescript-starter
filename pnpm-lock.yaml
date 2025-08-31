@@ -28,7 +28,7 @@ importers:
         version: 9.0.3
       '@sinclair/typebox':
         specifier: ^0.34.40
-        version: 0.34.40
+        version: 0.34.41
       close-with-grace:
         specifier: ^2.2.0
         version: 2.2.0
@@ -53,7 +53,7 @@ importers:
         version: 2.2.0
       '@fastify/type-provider-typebox':
         specifier: ^5.2.0
-        version: 5.2.0(@sinclair/typebox@0.34.40)
+        version: 5.2.0(@sinclair/typebox@0.34.41)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -397,8 +397,8 @@ packages:
     resolution: {integrity: sha512-9I2Zn6+NJLfaGoz9jN3lpwDgAYvfGeNYdbAIjJOqzs4Tpc+VU3Jqq4IofSUBKajiDS8k9fZIg18/z13mpk1bsA==}
     engines: {node: '>=8'}
 
-  '@sinclair/typebox@0.34.40':
-    resolution: {integrity: sha512-gwBNIP8ZAYev/ORDWW0QvxdwPXwxBtLsdsJgSc7eDIRt8ubP+rxUBzPsrwnu16fgEF8Bx4lh/+mvQvJzcTM6Kw==}
+  '@sinclair/typebox@0.34.41':
+    resolution: {integrity: sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g==}
 
   '@types/cookiejar@2.1.5':
     resolution: {integrity: sha512-he+DHOWReW0nghN24E1WUqM0efK4kI9oTqDm6XmK8ZPe2djZ90BSNdGnIyCLzCPw7/pogPlGbzI2wHGGmi4O/Q==}
@@ -1247,9 +1247,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@fastify/type-provider-typebox@5.2.0(@sinclair/typebox@0.34.40)':
+  '@fastify/type-provider-typebox@5.2.0(@sinclair/typebox@0.34.41)':
     dependencies:
-      '@sinclair/typebox': 0.34.40
+      '@sinclair/typebox': 0.34.41
 
   '@fastify/under-pressure@9.0.3':
     dependencies:
@@ -1286,7 +1286,7 @@ snapshots:
 
   '@jest/schemas@30.0.5':
     dependencies:
-      '@sinclair/typebox': 0.34.40
+      '@sinclair/typebox': 0.34.41
 
   '@jest/types@30.0.5':
     dependencies:
@@ -1300,7 +1300,7 @@ snapshots:
 
   '@lukeed/ms@2.0.2': {}
 
-  '@sinclair/typebox@0.34.40': {}
+  '@sinclair/typebox@0.34.41': {}
 
   '@types/cookiejar@2.1.5': {}
 
