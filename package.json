@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.0",
-    "@fastify/type-provider-typebox": "^5.2.0",
+    "@fastify/type-provider-typebox": "^6.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.17.2",
     "@types/supertest": "^6.0.3",
