@@ -39,7 +39,7 @@
     "@sinclair/typebox": "^0.34.40",
     "close-with-grace": "^2.2.0",
     "cross-env": "^10.0.0",
-    "env-schema": "^6.0.1",
+    "env-schema": "^7.0.0",
     "fastify": "^5.5.0",
     "fastify-plugin": "^5.0.1",
     "pino": "^10.0.0"
