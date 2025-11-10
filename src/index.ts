@@ -6,7 +6,9 @@ import { getCloseWithGrace } from './utils/closeWithGrace'
 const start = async () => {
   const app = getApp(env, {
     logger: getLoggerByEnv(env.nodeEnv, env.log.level),
-    ignoreDuplicateSlashes: true,
+    routerOptions: {
+      ignoreDuplicateSlashes: true,
+    },
   })
 
   getCloseWithGrace(app, 500)

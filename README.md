@@ -17,6 +17,10 @@ A minimalist API foundation built with modern web technologies:
 4. Launch development server: `pnpm dev`
 5. Open your browser to `https://localhost:[PORT]` (PORT value comes from your .env.local configuration)
 
+## Testing
+1. Copy .env.example to .env.test
+2. Run tests: `pnpm test`
+
 ## Development Commands
 
 - `pnpm run lint` - Format code and run linter
