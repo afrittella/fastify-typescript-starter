@@ -31,7 +31,7 @@ importers:
         version: 0.34.41
       close-with-grace:
         specifier: ^2.3.0
-        version: 2.3.0
+        version: 2.4.0
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -499,8 +499,8 @@ packages:
     resolution: {integrity: sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==}
     engines: {node: '>=8'}
 
-  close-with-grace@2.3.0:
-    resolution: {integrity: sha512-38BS9BuqAml6XFIlSWQcj3eivE05yFV6cJDuYoNGiHrE+h9ud1JtMJIVKXdLWa2Uo2Xt7q/GYczOesEchvBEsw==}
+  close-with-grace@2.4.0:
+    resolution: {integrity: sha512-bzAYS0Kax7I0ejiCFHVshsT9giz6MrOpkdpP1CEGpkDRG3mXVgHZ9QdzVGHRZR0jrAq6JyN1mB4Ty3ILnmzLdg==}
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -1398,7 +1398,7 @@ snapshots:
 
   ci-info@4.3.1: {}
 
-  close-with-grace@2.3.0: {}
+  close-with-grace@2.4.0: {}
 
   color-convert@2.0.1:
     dependencies:
