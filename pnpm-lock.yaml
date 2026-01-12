@@ -59,7 +59,7 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.10.4
-        version: 24.10.4
+        version: 24.10.7
       '@types/supertest':
         specifier: ^6.0.3
         version: 6.0.3
@@ -421,8 +421,8 @@ packages:
   '@types/methods@1.1.4':
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
 
-  '@types/node@24.10.4':
-    resolution: {integrity: sha512-vnDVpYPMzs4wunl27jHrfmwojOGKya0xyM3sH+UE5iv5uPS6vX7UIoh6m+vQc5LGBq52HBKPIn/zcSZVzeDEZg==}
+  '@types/node@24.10.7':
+    resolution: {integrity: sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -1282,7 +1282,7 @@ snapshots:
 
   '@jest/pattern@30.0.1':
     dependencies:
-      '@types/node': 24.10.4
+      '@types/node': 24.10.7
       jest-regex-util: 30.0.1
 
   '@jest/schemas@30.0.5':
@@ -1295,7 +1295,7 @@ snapshots:
       '@jest/schemas': 30.0.5
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.10.4
+      '@types/node': 24.10.7
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -1324,7 +1324,7 @@ snapshots:
 
   '@types/methods@1.1.4': {}
 
-  '@types/node@24.10.4':
+  '@types/node@24.10.7':
     dependencies:
       undici-types: 7.16.0
 
@@ -1334,7 +1334,7 @@ snapshots:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 24.10.4
+      '@types/node': 24.10.7
       form-data: 4.0.5
 
   '@types/supertest@6.0.3':
@@ -1703,7 +1703,7 @@ snapshots:
   jest-mock@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.4
+      '@types/node': 24.10.7
       jest-util: 30.2.0
 
   jest-regex-util@30.0.1: {}
@@ -1711,7 +1711,7 @@ snapshots:
   jest-util@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.4
+      '@types/node': 24.10.7
       chalk: 4.1.2
       ci-info: 4.3.1
       graceful-fs: 4.2.11
