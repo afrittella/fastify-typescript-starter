@@ -71,7 +71,7 @@ importers:
         version: 3.0.0
       glob:
         specifier: ^13.0.0
-        version: 13.0.4
+        version: 13.0.5
       pino-pretty:
         specifier: ^13.1.3
         version: 13.1.3
@@ -656,8 +656,8 @@ packages:
   get-tsconfig@4.13.0:
     resolution: {integrity: sha512-1VKTZJCwBrvbd+Wn3AOgQP/2Av+TfTCOlE4AcRJE72W1ksZXbAx8PPBR9RzgTeSPzlPMHrbANMH3LbltH73wxQ==}
 
-  glob@13.0.4:
-    resolution: {integrity: sha512-KACie1EOs9BIOMtenFaxwmYODWA3/fTfGSUnLhMJpXRntu1g+uL/Xvub5f8SCTppvo9q62Qy4LeOoUiaL54G5A==}
+  glob@13.0.5:
+    resolution: {integrity: sha512-BzXxZg24Ibra1pbQ/zE7Kys4Ua1ks7Bn6pKLkVPZ9FZe4JQS6/Q7ef3LG1H+k7lUf5l4T3PLSyYyYJVYUvfgTw==}
     engines: {node: 20 || >=22}
 
   gopd@1.2.0:
@@ -1165,7 +1165,7 @@ snapshots:
       content-disposition: 1.0.1
       fastify-plugin: 5.1.0
       fastq: 1.20.1
-      glob: 13.0.4
+      glob: 13.0.5
 
   '@fastify/swagger-ui@5.2.5':
     dependencies:
@@ -1530,7 +1530,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  glob@13.0.4:
+  glob@13.0.5:
     dependencies:
       minimatch: 10.2.1
       minipass: 7.1.2
@@ -1762,7 +1762,7 @@ snapshots:
 
   rimraf@6.1.3:
     dependencies:
-      glob: 13.0.4
+      glob: 13.0.5
       package-json-from-dist: 1.0.1
 
   safe-regex2@5.0.0:
