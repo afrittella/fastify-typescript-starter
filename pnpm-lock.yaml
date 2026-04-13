@@ -46,14 +46,14 @@ importers:
         version: 10.3.1
       typebox:
         specifier: ^1.1.6
-        version: 1.1.19
+        version: 1.1.23
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.4.5
         version: 2.4.5
       '@fastify/type-provider-typebox':
         specifier: ^6.1.0
-        version: 6.1.0(typebox@1.1.19)
+        version: 6.1.0(typebox@1.1.23)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -1139,8 +1139,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  typebox@1.1.19:
-    resolution: {integrity: sha512-w4m14nMOFEugDrcYeqmTXZZk7WUJKeh7NBZW+6sxhqIgspAg2DEmvubONp9DGVlaUZ28N6W7LUd0JcFKowGP4Q==}
+  typebox@1.1.23:
+    resolution: {integrity: sha512-LOGT/+DLfGsFzAVoYAYzLWT3iV5LfAHebW1pg336lwZg5fkaL3uBKqNXsA7aGb9rkOsVu9QohSkImHwwfHDC0A==}
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
@@ -1438,9 +1438,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@fastify/type-provider-typebox@6.1.0(typebox@1.1.19)':
+  '@fastify/type-provider-typebox@6.1.0(typebox@1.1.23)':
     dependencies:
-      typebox: 1.1.19
+      typebox: 1.1.23
 
   '@fastify/under-pressure@9.0.3':
     dependencies:
@@ -2117,7 +2117,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  typebox@1.1.19: {}
+  typebox@1.1.23: {}
 
   typescript@5.9.3: {}
 
