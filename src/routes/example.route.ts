@@ -1,5 +1,5 @@
 import { Type, type FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
-import type { FastifyRequestTypeBox } from '../types'
+import type { FastifyRequestTypeBox } from '../types.js'
 
 const PostExampleSchema = {
   tags: ['example'],

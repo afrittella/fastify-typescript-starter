@@ -1,8 +1,8 @@
 import { test, type TestContext } from 'node:test'
-import { getApp } from './app'
-import env from './config/config'
+import { getApp } from './app.js'
+import env from './config/config.js'
 import type { FastifyInstance } from 'fastify'
-import { getLoggerByEnv } from './utils/envToLogger'
+import { getLoggerByEnv } from './utils/envToLogger.js'
 
 let app: FastifyInstance
 

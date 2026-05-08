@@ -1,5 +1,5 @@
-import { validateEnvironment } from '../utils/validateEnvironment'
-import { type BasicEnv, basicEnv, NodeEnv, type ServerEnv } from '../types'
+import { validateEnvironment } from '../utils/validateEnvironment.js'
+import { type BasicEnv, basicEnv, NodeEnv, type ServerEnv } from '../types.js'
 
 const _getEnvFile = (nodeEnv: string) => {
   switch (nodeEnv) {

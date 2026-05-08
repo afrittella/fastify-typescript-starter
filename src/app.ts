@@ -5,7 +5,7 @@ import autoload from '@fastify/autoload'
 import underPressure from '@fastify/under-pressure'
 import { TypeBoxValidatorCompiler, type TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
 import path from 'node:path'
-import type { ServerEnv } from './types'
+import type { ServerEnv } from './types.js'
 
 export const getApp = (env: ServerEnv, options?: FastifyServerOptions) => {
   const app: FastifyInstance = fastify(options)
@@ -23,7 +23,7 @@ export const getApp = (env: ServerEnv, options?: FastifyServerOptions) => {
   app.register(underPressure)
 
   app.register(autoload, {
-    dir: path.join(__dirname, 'plugins'),
+    dir: path.join(import.meta.dirname, 'plugins'),
     dirNameRoutePrefix: false,
     scriptPattern: new RegExp(/.*plugin.*/),
     ignorePattern: new RegExp(/.*test.*/),
@@ -31,7 +31,7 @@ export const getApp = (env: ServerEnv, options?: FastifyServerOptions) => {
   })
 
   app.register(autoload, {
-    dir: path.join(__dirname, 'routes'),
+    dir: path.join(import.meta.dirname, 'routes'),
     dirNameRoutePrefix: false,
     ignorePattern: new RegExp(/.*test.*/),
     scriptPattern: new RegExp(/.*route.*/),

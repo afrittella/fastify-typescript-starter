@@ -1,7 +1,7 @@
-import { getApp } from './app'
-import env from './config/config'
-import { getLoggerByEnv } from './utils/envToLogger'
-import { getCloseWithGrace } from './utils/closeWithGrace'
+import { getApp } from './app.js'
+import env from './config/config.js'
+import { getLoggerByEnv } from './utils/envToLogger.js'
+import { getCloseWithGrace } from './utils/closeWithGrace.js'
 
 const start = async () => {
   const app = getApp(env, {
@@ -22,4 +22,4 @@ const start = async () => {
   }
 }
 
-start()
+await start()
