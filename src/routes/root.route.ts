@@ -1,5 +1,4 @@
-import type { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
-import { Type } from '@sinclair/typebox'
+import { type FastifyPluginAsyncTypebox, Type } from '@fastify/type-provider-typebox'
 import type { FastifyInstance } from 'fastify'
 
 const rootRoute: FastifyPluginAsyncTypebox = async (fastify: FastifyInstance) => {
