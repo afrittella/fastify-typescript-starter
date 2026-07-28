@@ -1,11 +1,13 @@
 {
   "extends": "fastify-tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "types": ["node"],
     "lib": ["EsNext"],
     "sourceMap": true,
-    "rootDir": "./src",
-    "types": ["node"]
+    "module": "esnext",
+    "moduleResolution": "bundler"
   },
   "include": ["src"]
 }
