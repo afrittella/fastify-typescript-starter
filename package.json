@@ -28,7 +28,7 @@
     "node": ">=24",
     "pnpm": ">=9.0.0"
   },
-  "packageManager": "pnpm@11.17.0",
+  "packageManager": "pnpm@11.20.0",
   "license": "MIT",
   "dependencies": {
     "@fastify/autoload": "^6.5.0",
