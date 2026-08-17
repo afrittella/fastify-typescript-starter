@@ -33,8 +33,8 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       env-schema:
-        specifier: ^7.0.0
-        version: 7.0.0
+        specifier: ^8.0.0
+        version: 8.0.0
       fastify:
         specifier: ^5.10.0
         version: 5.12.0
@@ -672,8 +672,8 @@ packages:
   end-of-stream@1.4.5:
     resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
 
-  env-schema@7.0.0:
-    resolution: {integrity: sha512-b8rdAwdFpekDxNAUNuT6KbV/QEX/pTBs0gjehEPmBUUteh9zBDm9zxFSQt55D29odo3rJt4feoWRqn4U/tzicw==}
+  env-schema@8.0.0:
+    resolution: {integrity: sha512-BBF/xWtTC9MeNfJONdC//oL5Gjl+rVN5lvrSVEltWjh5uJ/UXoSLN/ddn5k023yYC68mCqhGIuu5CXNTAF8CPA==}
 
   es-define-property@1.0.1:
     resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
@@ -1461,7 +1461,7 @@ snapshots:
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.2
+      fast-uri: 3.1.5
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -1551,7 +1551,7 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  env-schema@7.0.0:
+  env-schema@8.0.0:
     dependencies:
       ajv: 8.20.0
 
