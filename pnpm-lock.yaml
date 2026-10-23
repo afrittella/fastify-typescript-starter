@@ -46,14 +46,14 @@ importers:
         version: 10.4.0
       typebox:
         specifier: ^1.3.8
-        version: 1.4.2
+        version: 1.4.3
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.5.6
         version: 2.5.6
       '@fastify/type-provider-typebox':
         specifier: ^6.1.0
-        version: 6.3.0(ajv-formats@3.0.1)(typebox@1.4.2)
+        version: 6.3.0(ajv-formats@3.0.1)(typebox@1.4.3)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -561,6 +561,11 @@ packages:
 
   ajv-formats@3.0.1:
     resolution: {integrity: sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==}
+    peerDependencies:
+      ajv: ^8.0.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -1073,8 +1078,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  typebox@1.4.2:
-    resolution: {integrity: sha512-eSoZzgSIyOKDtTH9MI7XMAxMaiXq7UiSFWarysN1ka66baTLDxAVdQ6WkWn6qDqsJFVrcjzvuP+CqHo9yrlQpg==}
+  typebox@1.4.3:
+    resolution: {integrity: sha512-u3nyf7ZciAv1GOijVpI0TDt9At5wmEi7lSHSlRrnjuThv1DcB7fgGBqqrz+fGZ54jAfTpOOX0JXwxSIg3pnxQA==}
 
   typescript@7.0.2:
     resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
@@ -1295,10 +1300,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@fastify/type-provider-typebox@6.3.0(ajv-formats@3.0.1)(typebox@1.4.2)':
+  '@fastify/type-provider-typebox@6.3.0(ajv-formats@3.0.1)(typebox@1.4.3)':
     dependencies:
       ajv-formats: 3.0.1
-      typebox: 1.4.2
+      typebox: 1.4.3
 
   '@fastify/under-pressure@9.2.1':
     dependencies:
@@ -1988,7 +1993,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  typebox@1.4.2: {}
+  typebox@1.4.3: {}
 
   typescript@7.0.2:
     optionalDependencies:
