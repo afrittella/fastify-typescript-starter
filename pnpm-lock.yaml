@@ -13,7 +13,7 @@ importers:
         version: 6.5.1
       '@fastify/cors':
         specifier: ^11.3.0
-        version: 11.3.1
+        version: 11.4.0
       '@fastify/helmet':
         specifier: ^13.1.0
         version: 13.2.0
@@ -320,8 +320,8 @@ packages:
   '@fastify/autoload@6.5.1':
     resolution: {integrity: sha512-IW2DyejF1+SEEDTwbJriAcKtMcAy+y1cK04ZQj3p7WwwR/zgN+YYxzmM96L+AP48nNOCNKBGpyYJzgZ1HnubKA==}
 
-  '@fastify/cors@11.3.1':
-    resolution: {integrity: sha512-gZXNzd6FLHzOIfvoK4+Az3Wko2V6Y0MIsLxpyo4AEYl7a9q1JBPwPaxLea4nkr++8FCiJiPpYYo6E02uZW0dqw==}
+  '@fastify/cors@11.4.0':
+    resolution: {integrity: sha512-+P4+RIRx5I3rkC1QttZ9gqSJ3AHrsM4PrZF6bpgbElt86n7gOBiHL3J0H3moVSyfc+vvvNto+Ay1LmG7ZQ37pA==}
 
   '@fastify/error@4.2.0':
     resolution: {integrity: sha512-RSo3sVDXfHskiBZKBPRgnQTtIqpi/7zhJOEmAxCiBcM7d0uwdGdxLlsCaLzGs8v8NnxIRlfG0N51p5yFaOentQ==}
@@ -1237,7 +1237,7 @@ snapshots:
 
   '@fastify/autoload@6.5.1': {}
 
-  '@fastify/cors@11.3.1':
+  '@fastify/cors@11.4.0':
     dependencies:
       fastify-plugin: 6.0.1
       toad-cache: 3.7.4
