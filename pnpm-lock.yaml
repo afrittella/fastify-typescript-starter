@@ -59,7 +59,7 @@ importers:
         version: 30.0.0
       '@types/node':
         specifier: ^24.13.3
-        version: 24.19.2
+        version: 24.19.4
       '@types/supertest':
         specifier: ^7.2.1
         version: 7.2.1
@@ -423,6 +423,9 @@ packages:
 
   '@types/node@24.19.2':
     resolution: {integrity: sha512-93d49wCWJkCyN87MxLpNN6KXPCwFw7bVUg79mGUV1OS40JGWwVCr8n61DXCSqz7CV6/VfPkb7xec7uP2M+QHWQ==}
+
+  '@types/node@24.19.4':
+    resolution: {integrity: sha512-s04odlR3ksJrLu7QLi+pddkWLD0RmSbcP9KuWn2/ozQKAp/YgwBC/6x9kJj8yAzZnGPfxePm7zm7nysVPCRagw==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -1386,6 +1389,10 @@ snapshots:
   '@types/methods@1.1.4': {}
 
   '@types/node@24.19.2':
+    dependencies:
+      undici-types: 7.24.6
+
+  '@types/node@24.19.4':
     dependencies:
       undici-types: 7.24.6
 
